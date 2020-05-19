@@ -1,0 +1,10 @@
+logging:
+  level:
+    request.trace: INFO
+  path: logs
+server:
+  tomcat:
+    basedir: target/tomcat
+spring:
+  profiles:
+    include: text-logging

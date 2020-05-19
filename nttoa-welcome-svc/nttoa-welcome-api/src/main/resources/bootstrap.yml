@@ -1,0 +1,6 @@
+spring.application.name: nttoa-welcome-svc
+
+jasypt:
+  alias: jasypt
+  keystore: classpath:certs/jasyptKeystore.jks
+  keystore-passwd: lAnJIIln8cNL6W88cTrSS7/1BDcfWaqeyM1JODpH9GM

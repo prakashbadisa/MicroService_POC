@@ -1,0 +1,15 @@
+<configuration scan="true" scanPeriod="60">
+
+  <property name="LOG_FILE" value="${LOG_PATH:-logs}/nttoa-welcome-api}"/>
+  <include resource="com/giffgaff/commons/logging/logback-giffgaff.xml"/>
+
+  <!--Changing a log level-->
+
+  <!--To change a log level insert an entry into the file like the example below, containing the
+  name of the logger you wish to configure -->
+  <logger name="request.trace" level="OFF"/>
+  <logger name="springfox" level="WARN"/>
+
+</configuration>
+
+

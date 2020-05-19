@@ -1,0 +1,9 @@
+build:
+  version: 1.0-SNAPSHOT-2015-10-20T16:42:27Z
+git:
+  build:
+    time: 20.10.2015 @ 17:42:29 BST
+    version: 1.0-SNAPSHOT
+  commit:
+    id: b933714d23ed0c7e7f8e5d01c0f3524c0db3583b
+    time: 19.10.2015 @ 11:26:25 BST

@@ -1,0 +1,16 @@
+logging:
+  level:
+    request.trace: INFO
+
+spring:
+  profiles:
+    include: json-logging
+
+security:
+  oauth2:
+    resource:
+      jwt:
+        keyValue: |-
+          -----BEGIN PUBLIC KEY-----
+          MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArmidaskWbxryG1JlAKS50w/fU+7Oz1k1n/EYnMigvvVvXvjrid/dnv0TFFhXON1yMcYhp5ksCIhaEz6REVS+BCfqItQZLxY2wiLl04Q+LLBGnn7Ha82Ew9KsTRxbVs58HtYyupJfl0q2tkGGnAq6qfNeHz6FLm6gNOGq2MoihsE5a47wSjrh7/8naDGB2dBOtZ2BDSA1aRYtYnWFK2iRd2mAxnVnxyJfZp3dDJD5gURT6N8yM4MF1bYfP1j2YQqxSnCqbtBVjJtRMXVENzN1maEID5tV1s3HGS3SHwJecz9lSfso4FEs5579gCBnkZIDOlXyb+sCJ9ujcXxXjGCXtwIDAQAB
+          -----END PUBLIC KEY-----

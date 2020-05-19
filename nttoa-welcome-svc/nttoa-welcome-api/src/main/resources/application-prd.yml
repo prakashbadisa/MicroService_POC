@@ -1,0 +1,25 @@
+logging:
+  level:
+    com:
+      giffgaff: INFO
+    root: WARN
+
+swagger.enabled: false
+
+spring:
+  profiles:
+    include: json-logging
+
+management:
+  endpoints:
+    enabled-by-default: false
+
+security:
+  oauth2:
+    resource:
+      jwt:
+        keyValue: |-
+          -----BEGIN PUBLIC KEY-----
+          MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiO4EqGTKO5NfZb3udeLZCOdJoFHxrAg5InwhdcS/lJC7pK121ntWuDYgsgMrkOCzbwlCXa6vnyktaqBz8yTTOigbaTiuIDAdsFiaSUjVUcxTxLblfAytWiwGBLj+4pffPj8ECp5ipjhkAqsLbaSdGIWRR1RUpL13kqtrLeXBZ1jwlovWo67JtAXMgp8/ILHd7aJVi7uwfttl7PMJ5wFW7lEjjwslguTBAzSF0Kid+1wjLoakgHQbvce54rPbt5804XCbYWnsvaINR9nq2n+3beYIYAsvsdLBJgn4tOYUi0ZmsFRRcq93J53gJwiXZ7tCzX3YwZfZN1/QH10UouRvtQIDAQAB
+          -----END PUBLIC KEY-----
+

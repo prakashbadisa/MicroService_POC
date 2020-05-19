@@ -1,0 +1,12 @@
+https:
+  validation:
+    truststore:
+      file: file:///tmp/truststore.jks
+      password: changeit
+
+apitruststore:
+  file: file:///tmp/truststore.jks
+  password: changeit
+
+api:
+  url: http://nttoa-welcome-api.<replace-with-openshift-namespace>:8099

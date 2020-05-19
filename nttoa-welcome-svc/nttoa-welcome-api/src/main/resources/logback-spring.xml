@@ -1,0 +1,10 @@
+<configuration scan="true" scanPeriod="60">
+
+  <include resource="com/giffgaff/commons/logging/logback-root-appender.xml"/>
+
+  <logger name="com.giffgaff" level="INFO"/>
+  <logger name="org.springframework" level="INFO"/>
+  <logger name="org.apache.activemq" level="INFO"/>
+  <logger name="com.mangofactory.swagger" level="ERROR"/>
+
+</configuration>

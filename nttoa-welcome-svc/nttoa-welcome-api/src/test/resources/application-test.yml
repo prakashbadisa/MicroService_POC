@@ -1,0 +1,20 @@
+active:
+  environment: unittest
+
+spring:
+  profiles:
+    include: local
+
+logging:
+  level:
+    request.trace: INFO
+  path: logs
+
+microservice:
+  rest:
+    logging:
+      secure:
+        enabled: false
+  build:
+    info:
+      file: classpath:build.info.test.yml
